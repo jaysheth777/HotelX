@@ -18,8 +18,13 @@ st.set_page_config(
 )
 
 # Retrieve environment variables
-MONGO_CONN_URI = os.getenv('MONGO_CONN_URI')
-TOGETHER_API_KEY = os.getenv('TOGETHER_API_KEY')
+# For Local
+# MONGO_CONN_URI = os.getenv('MONGO_CONN_URI')
+# TOGETHER_API_KEY = os.getenv('TOGETHER_API_KEY')
+
+# For streamlit cloud
+MONGO_CONN_URI = st.secrets['MONGO_CONN_URI']
+TOGETHER_API_KEY = st.secrets['TOGETHER_API_KEY']
 
 # Check for necessary environment variables
 if not (MONGO_CONN_URI and TOGETHER_API_KEY):

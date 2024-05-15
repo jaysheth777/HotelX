@@ -64,7 +64,7 @@ with st.sidebar:
     """)
     st.subheader("Embedding Model")
     st.write("""
-    We use the **togethercomputer/m2-bert-80M-8k-retrieval** model for generating text embeddings. This model allows us to effectively search and match Airbnb listings to your specific requirements.
+    Used the **togethercomputer/m2-bert-80M-8k-retrieval** model for generating text embeddings. This model allows us to effectively search and match Airbnb listings to your specific requirements.
     """)
     st.subheader("Vector Search")
     st.write("""

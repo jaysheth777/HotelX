@@ -7,7 +7,7 @@ The architecture of HotelX is built on the following components:
 - Streamlit Frontend: Provides an interactive user interface where users can enter their queries and receive recommendations. The frontend also includes predefined prompts to help users get started quickly.
 - MongoDB Database: Stores the Airbnb listings and their corresponding text embeddings. MongoDB's vector search capabilities are utilized to efficiently retrieve the most relevant listings based on user queries.
 - Together API: A powerful API for generating text embeddings. The model used is the togethercomputer/m2-bert-80M-8k-retrieval, which converts text into high-dimensional vectors that can be compared for similarity.
-- Embedding Generation Script: A Jupyter Notebook (.ipynb) script that processes Airbnb listings, generates embeddings for the text fields, and stores these embeddings back in the MongoDB database.
+- Embedding Generation Script: A Jupyter Notebook (generate-embeddings.ipynb) script that processes Airbnb listings, generates embeddings for the text fields, and stores these embeddings back in the MongoDB database.
 
 ### User Interaction Guide
 - Initial Setup: Users must ensure they have their MongoDB connection URI and Together API key stored in a .env file.

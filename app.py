@@ -53,7 +53,7 @@ example_prompts = [
     "Apartment with a great view near a coast or beach for 4 people",
     "Luxury penthouse with a city skyline view, suitable for a weekend stay for 2 people",
     "Cozy cabin in a quiet neighborhood, perfect for a family of 5 with easy access to public transit",
-    "Charming cottage by the lake, ideal for a romantic getaway for 2, with a min. stay of 3 nights"
+    "Charming cottage by the lake, ideal for a romantic getaway, min. stay of 3 nights"
 ]
 
 with st.sidebar:
